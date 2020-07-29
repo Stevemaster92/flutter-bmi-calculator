@@ -1,13 +1,41 @@
 import 'package:flutter/material.dart';
 
-const Color kActiveCardColor = Color(0xFF101427);
-const Color kInactiveCardColor = Color(0xFF1D1F33);
+const kActiveCardColor = Color(0xFF101427);
+const kInactiveCardColor = Color(0xFF1D1F33);
+const kAccentColor = Color(0xFFEB1555);
+const kSecondaryTextColor = Color(0xFF80838D);
 
-const TextStyle kLabelTextStyle = TextStyle(
+const kLabelTextStyle = TextStyle(
   fontSize: 16.0,
-  color: Color(0xFF8D8E98),
+  color: kSecondaryTextColor,
 );
-const TextStyle kValueTextStyle = TextStyle(
+
+const kValueTextStyle = TextStyle(
   fontSize: 48.0,
   fontWeight: FontWeight.w900,
+);
+
+const kTitleTextStyle = TextStyle(
+  fontSize: 40.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kResultTextStyle = TextStyle(
+  color: Color(0xFF22E67B),
+  fontSize: 20.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kBMITextStyle = TextStyle(
+  fontSize: 80.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kBMIBodyTextStyle = TextStyle(
+  fontSize: 20.0,
+);
+
+const kBMIRangeTextStyle = TextStyle(
+  fontSize: 22.0,
+  color: Color(0xFF878893),
 );
