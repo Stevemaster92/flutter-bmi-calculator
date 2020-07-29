@@ -5,7 +5,7 @@ class ActionCard extends StatelessWidget {
   final Widget child;
   final Function onPressed;
 
-  ActionCard({@required this.color, this.child, @required this.onPressed});
+  ActionCard({@required this.color, this.child, this.onPressed});
 
   @override
   Widget build(BuildContext context) {
