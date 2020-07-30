@@ -6,4 +6,4 @@ This project is based on the [stub project](https://github.com/londonappbrewery/
 
 This Body Mass Index Calculator inspired by the beautiful designs made by [Ruben Vaalt](https://dribbble.com/shots/4585382-Simple-BMI-Calculator) lets you determine your personal health status. It is a multi-screen app with simple functionality with focus on custom styling. 
 
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/bmi-calc-demo.gif)
+<img src="https://github.com/Stevemaster92/flutter-bmi-calculator/blob/master/images/bmi-calculator-1.png" alt="bmi-calculator-1" height="734"/> <img src="https://github.com/Stevemaster92/flutter-bmi-calculator/blob/master/images/bmi-calculator-2.png" alt="bmi-calculator-2" height="734"/>

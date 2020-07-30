@@ -5,12 +5,9 @@ import 'package:flutter/material.dart';
 import 'constants.dart';
 
 class CalculatorBrain {
-  final int height, weight;
   double _bmi;
 
-  CalculatorBrain(this.height, this.weight);
-
-  String getBMI() {
+  String getBMI(height, weight) {
     _bmi = weight / pow(height / 100.0, 2);
 
     return _bmi.toStringAsFixed(1);
@@ -42,7 +39,7 @@ class CalculatorBrain {
     return 'You have a lower than normal body weight. You can eat a bit more!';
   }
 
-  Color getTextColor() {
+  Color getResultColor() {
     if (_bmi > 30) {
       return Colors.redAccent;
     }
